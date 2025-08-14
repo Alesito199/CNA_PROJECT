@@ -1,0 +1,64 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Composer
+/vendor/
+composer.lock
+
+# NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads and temp files
+/uploads/temp/
+/public/assets/uploads/
+/storage/logs/
+/storage/temp/
+
+# Cache
+/storage/cache/
+/storage/sessions/
+
+# Build files
+/public/assets/css/style.css
+/public/assets/css/style.css.map
+
+# Testing
+/coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# Backup files
+*.bak
+*.backup
+*.sql.bak
+
+# Security
+private.key
+public.key
+*.pem
+*.key
+!.gitkeep
