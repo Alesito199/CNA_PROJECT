@@ -1,0 +1,23 @@
+{
+  "name": "cna-project",
+  "version": "1.0.0",
+  "description": "Professional Upholstery Business Management System",
+  "main": "public/index.php",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/css/input.css -o ./public/assets/css/style.css --watch",
+    "build": "tailwindcss -i ./src/css/input.css -o ./public/assets/css/style.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^3.4.17"
+  },
+  "keywords": [
+    "upholstery",
+    "business-management",
+    "php",
+    "tailwindcss"
+  ],
+  "author": "Alesito199",
+  "license": "MIT"
+}
